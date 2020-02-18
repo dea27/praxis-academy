@@ -1,0 +1,530 @@
+1
+C:\Users\medianet\Documents>date /t
+Tue 02/18/2020
+untuk melihat tanggal,bulan dan tahun 
+
+2
+C:\Users\medianet\Documents>mkdir dea
+untuk membuat folder yang bernamakan dea
+
+3
+C:\Users\medianet\Documents>dir
+ Volume in drive C has no label.
+ Volume Serial Number is 2696-95B7
+
+ Directory of C:\Users\medianet\Documents
+
+02/18/2020  02:34 PM    <DIR>          .
+02/18/2020  02:34 PM    <DIR>          ..
+06/18/2019  02:18 PM               966 10-1.c
+11/22/2019  04:30 AM           528,384 1900016155.accdb
+05/22/2019  12:39 AM                34 4.c
+05/22/2019  12:39 AM               406 4.o
+10/07/2019  10:24 AM    <DIR>          Adobe
+03/27/2019  01:36 AM             1,216 aku.c
+05/14/2019  07:56 AM           241,105 aku.exe
+03/27/2019  01:36 AM             2,230 aku.o
+03/26/2019  08:04 AM               645 coba.c
+05/14/2019  07:56 AM           240,466 coba.exe
+03/26/2019  08:04 AM             1,262 coba.o
+10/06/2018  10:45 PM    <DIR>          Custom Office Templates
+02/18/2020  02:34 PM    <DIR>          dea
+10/07/2019  06:00 PM            58,381 falah coba 1.docx
+09/04/2019  08:43 AM    <DIR>          GIS DataBase
+11/16/2019  03:30 PM            21,521 jarkom16.docx
+02/25/2017  07:26 PM    <DIR>          lowpolydeer
+06/22/2019  01:46 AM               955 percobaan.c
+10/08/2019  02:10 PM           242,501 percobaan.exe
+06/22/2019  12:58 AM             1,771 percobaan.o
+09/20/2019  02:17 PM    <DIR>          Python Scripts
+04/10/2019  06:18 AM             2,777 simpus_kelas_e.sql
+04/10/2019  06:20 AM    <DIR>          simpus_kelas_f
+04/10/2019  07:21 AM             1,785 simpus_kelas_f.sql
+10/06/2018  09:40 PM    <DIR>          SPSSInc
+03/16/2019  01:30 AM               805 test.c
+03/19/2019  03:52 PM           241,120 test.exe
+03/15/2019  09:50 PM             1,652 test.o
+03/12/2019  01:38 AM               989 tugas.c
+03/19/2019  03:52 PM           241,217 tugas.exe
+03/15/2019  07:28 PM             1,652 tugas.o
+03/26/2019  07:42 AM               706 tugas1.c
+05/14/2019  07:56 AM           240,320 tugas1.exe
+03/26/2019  08:57 AM             1,430 tugas1.o
+03/26/2019  07:45 AM             1,394 tugas2.c
+05/14/2019  07:56 AM           241,009 tugas2.exe
+03/26/2019  08:57 AM             2,222 tugas2.o
+05/21/2019  08:36 AM               228 Untitled1.c
+12/02/2019  10:06 AM    <DIR>          Visual Studio 2012
+02/26/2019  11:54 AM        45,918,843 Windows6.1-KB3033929-x64.msu
+04/16/2019  09:27 AM            15,903 xdfgdfg.jpg
+              32 File(s)     48,255,895 bytes
+              11 Dir(s)  124,610,662,400 bytes free
+untuk menampilkan folder yang ada
+
+4
+C:\Users\medianet\Documents>ipconfig
+
+Windows IP Configuration
+
+
+Ethernet adapter Local Area Connection:
+
+   Connection-specific DNS Suffix  . :
+   Link-local IPv6 Address . . . . . : fe80::d825:139b:761a:3d02%10
+   IPv4 Address. . . . . . . . . . . : 10.1.32.103
+   Subnet Mask . . . . . . . . . . . : 255.255.255.0
+   Default Gateway . . . . . . . . . : 10.1.32.1
+
+Ethernet adapter VirtualBox Host-Only Network:
+
+   Connection-specific DNS Suffix  . :
+   Link-local IPv6 Address . . . . . : fe80::3450:301d:fdd0:d322%13
+   IPv4 Address. . . . . . . . . . . : 192.168.56.1
+   Subnet Mask . . . . . . . . . . . : 255.255.255.0
+   Default Gateway . . . . . . . . . :
+
+Tunnel adapter isatap.{31E88CBA-DC08-4349-B507-AFBC560A306F}:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+
+Tunnel adapter Teredo Tunneling Pseudo-Interface:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+
+Tunnel adapter isatap.{E1573412-0956-499E-A0D4-8CEC6C68B3C1}:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+untuk menampilkan ip pada komputer tersebut
+
+5
+C:\Users\medianet\Documents>rmdir dea
+
+C:\Users\medianet\Documents>dir
+ Volume in drive C has no label.
+ Volume Serial Number is 2696-95B7
+
+ Directory of C:\Users\medianet\Documents
+
+02/18/2020  03:01 PM    <DIR>          .
+02/18/2020  03:01 PM    <DIR>          ..
+06/18/2019  02:18 PM               966 10-1.c
+11/22/2019  04:30 AM           528,384 1900016155.accdb
+05/22/2019  12:39 AM                34 4.c
+05/22/2019  12:39 AM               406 4.o
+10/07/2019  10:24 AM    <DIR>          Adobe
+03/27/2019  01:36 AM             1,216 aku.c
+05/14/2019  07:56 AM           241,105 aku.exe
+03/27/2019  01:36 AM             2,230 aku.o
+03/26/2019  08:04 AM               645 coba.c
+05/14/2019  07:56 AM           240,466 coba.exe
+03/26/2019  08:04 AM             1,262 coba.o
+10/06/2018  10:45 PM    <DIR>          Custom Office Templates
+10/07/2019  06:00 PM            58,381 falah coba 1.docx
+09/04/2019  08:43 AM    <DIR>          GIS DataBase
+11/16/2019  03:30 PM            21,521 jarkom16.docx
+02/25/2017  07:26 PM    <DIR>          lowpolydeer
+06/22/2019  01:46 AM               955 percobaan.c
+10/08/2019  02:10 PM           242,501 percobaan.exe
+06/22/2019  12:58 AM             1,771 percobaan.o
+09/20/2019  02:17 PM    <DIR>          Python Scripts
+04/10/2019  06:18 AM             2,777 simpus_kelas_e.sql
+04/10/2019  06:20 AM    <DIR>          simpus_kelas_f
+04/10/2019  07:21 AM             1,785 simpus_kelas_f.sql
+10/06/2018  09:40 PM    <DIR>          SPSSInc
+03/16/2019  01:30 AM               805 test.c
+03/19/2019  03:52 PM           241,120 test.exe
+03/15/2019  09:50 PM             1,652 test.o
+03/12/2019  01:38 AM               989 tugas.c
+03/19/2019  03:52 PM           241,217 tugas.exe
+03/15/2019  07:28 PM             1,652 tugas.o
+03/26/2019  07:42 AM               706 tugas1.c
+05/14/2019  07:56 AM           240,320 tugas1.exe
+03/26/2019  08:57 AM             1,430 tugas1.o
+03/26/2019  07:45 AM             1,394 tugas2.c
+05/14/2019  07:56 AM           241,009 tugas2.exe
+03/26/2019  08:57 AM             2,222 tugas2.o
+05/21/2019  08:36 AM               228 Untitled1.c
+12/02/2019  10:06 AM    <DIR>          Visual Studio 2012
+02/26/2019  11:54 AM        45,918,843 Windows6.1-KB3033929-x64.msu
+04/16/2019  09:27 AM            15,903 xdfgdfg.jpg
+              32 File(s)     48,255,895 bytes
+              10 Dir(s)  124,615,512,064 bytes free
+menghapus folder yang bernamakan dea
+
+6
+C:\Users\medianet\Documents>cd dea
+
+C:\Users\medianet\Documents\dea>
+untuk pindah ke folder yang bernamakan dea
+
+7
+C:\Users\medianet\Documents\dea>color 6
+
+untuk memberi warna font sesuai yang diinginkan 6= yellow
+
+8
+Pinging facebook.com [157.240.7.35] with 32 bytes of data:
+Reply from 157.240.7.35: bytes=32 time=21ms TTL=52
+Reply from 157.240.7.35: bytes=32 time=21ms TTL=52
+Reply from 157.240.7.35: bytes=32 time=21ms TTL=52
+Reply from 157.240.7.35: bytes=32 time=21ms TTL=52
+
+Ping statistics for 157.240.7.35:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 21ms, Maximum = 21ms, Average = 21ms
+untuk menguji network connection
+
+9
+C:\Users\medianet\Documents>xcopy dea
+0 File(s) copied
+untuk mengcopy file atau folder yang diinginkan
+
+10 
+C:\Users\medianet\Documents>title uad
+mengatur judul jendela cd yang aktif
+
+11
+C:\Users\medianet\Documents>ver
+
+Microsoft Windows [Version 6.1.7601]
+untuk menampilkan versi windows yang digunakan
+
+12
+C:\Users\medianet\Documents>auditpol list
+Error 0x00000057 occurred:
+The parameter is incorrect.
+
+Usage: AuditPol command [<sub-command><options>]
+
+
+Commands (only one command permitted per execution)
+  /?               Help (context-sensitive)
+  /get             Displays the current audit policy.
+  /set             Sets the audit policy.
+  /list            Displays selectable policy elements.
+  /backup          Saves the audit policy to a file.
+  /restore         Restores the audit policy from a file.
+  /clear           Clears the audit policy.
+  /remove          Removes the per-user audit policy for a user account.
+  /resourceSACL    Configure global resource SACLs
+
+
+Use AuditPol <command> /? for details on each command
+
+13
+C:\Users\medianet\Documents>query process
+ USERNAME              SESSIONNAME         ID    PID  IMAGE
+>medianet              console              1   2696  taskhost.exe
+>medianet              console              1   2784  dwm.exe
+>medianet              console              1   2792  explorer.exe
+>medianet              console              1   2744  ravcpl64.exe
+>medianet              console              1   3104  defenderdaem...
+>medianet              console              1   3204  hydradm.exe
+>medianet              console              1   3284  hydradm64.exe
+>medianet              console              1   3312  jusched.exe
+>medianet              console              1   3336  mom.exe
+>medianet              console              1   3348  explorer.exe
+>medianet              console              1   3364  svchost.exe
+>medianet              console              1   3932  chrome.exe
+>medianet              console              1   3940  chrome.exe
+>medianet              console              1   3984  chrome.exe
+>medianet              console              1   4084  chrome.exe
+>medianet              console              1   4092  chrome.exe
+>medianet              console              1   4304  ccc.exe
+>medianet              console              1   1104  chrome.exe
+>medianet              console              1   3276  ielowutil.exe
+>medianet              console              1   2264  chrome.exe
+>medianet              console              1   3196  jucheck.exe
+>medianet              console              1   5116  chrome.exe
+>medianet              console              1   4896  chrome.exe
+>medianet              console              1   4656  chrome.exe
+>medianet              console              1   3972  chrome.exe
+>medianet              console              1   6064  cmd.exe
+>medianet              console              1   1300  conhost.exe
+>medianet              console              1   5572  winword.exe
+>medianet              console              1   6508  notepad.exe
+>medianet              console              1   6644  chrome.exe
+>medianet              console              1   5444  chrome.exe
+>medianet              console              1   2764  chrome.exe
+>medianet              console              1   6908  chrome.exe
+>medianet              console              1   6852  chrome.exe
+>medianet              console              1   4748  chrome.exe
+>medianet              console              1   6448  chrome.exe
+>medianet              console              1   7068  chrome.exe
+>medianet              console              1    460  chrome.exe
+>medianet              console              1   1292  chrome.exe
+>medianet              console              1   5536  chrome.exe
+>medianet              console              1   6340  chrome.exe
+>medianet              console              1    796  chrome.exe
+>medianet              console              1   5552  chrome.exe
+>medianet              console              1   7144  chrome.exe
+>medianet              console              1   5272  chrome.exe
+>medianet              console              1   4700  chrome.exe
+>medianet              console              1   5616  chrome.exe
+>medianet              console              1   5856  chrome.exe
+>medianet              console              1   2932  more.com
+>medianet              console              1   6436  cmd.exe
+>medianet              console              1   2004  conhost.exe
+>medianet              console              1   5844  cmd.exe
+>medianet              console              1   6432  cmd.exe
+>medianet              console              1   6780  chrome.exe
+>medianet              console              1   6488  chrome.exe
+>medianet              console              1   4644  chrome.exe
+>medianet              console              1   5180  query.exe
+>medianet              console              1   7104  qprocess.exe
+
+14
+C:\Users\medianet\Documents>query user
+ USERNAME              SESSIONNAME        ID  STATE   IDLE TIME  LOGON TIME
+>medianet              console             1  Active      none   2/18/2020 1:35
+PM
+
+15
+C:\Users\medianet\Documents>cmdkey
+
+Creates, displays, and deletes stored user names and passwords.
+
+The syntax of this command is:
+
+CMDKEY [{/add | /generic}:targetname {/smartcard | /user:username {/pass{:passw
+rd}}} | /delete{:targetname | /ras} | /list{:targetname}]
+
+Examples:
+
+  To list available credentials:
+     cmdkey /list
+     cmdkey /list:targetname
+
+  To create domain credentials:
+     cmdkey /add:targetname /user:username /pass:password
+     cmdkey /add:targetname /user:username /pass
+     cmdkey /add:targetname /user:username
+     cmdkey /add:targetname /smartcard
+
+  To create generic credentials:
+     The /add switch may be replaced by /generic to create generic credentials
+
+  To delete existing credentials:
+     cmdkey /delete:targetname
+
+  To delete RAS credentials:
+     cmdkey /delete /ras
+
+16
+C:\Users\medianet\Documents>systeminfo
+
+Host Name:                 FASTMEDIANET-PC
+OS Name:                   Microsoft Windows 7 Professional
+OS Version:                6.1.7601 Service Pack 1 Build 7601
+OS Manufacturer:           Microsoft Corporation
+OS Configuration:          Standalone Workstation
+OS Build Type:             Multiprocessor Free
+Registered Owner:          medianet
+Registered Organization:
+Product ID:                55041-011-1826335-86963
+Original Install Date:     10/4/2018, 11:25:43 PM
+System Boot Time:          2/18/2020, 1:34:58 PM
+System Manufacturer:       Gigabyte Technology Co., Ltd.
+System Model:              To be filled by O.E.M.
+System Type:               x64-based PC
+Processor(s):              1 Processor(s) Installed.
+                           [01]: Intel64 Family 6 Model 58 Stepping 9 GenuineInt
+el ~2890 Mhz
+BIOS Version:              American Megatrends Inc. FB, 2/25/2013
+Windows Directory:         C:\Windows
+System Directory:          C:\Windows\system32
+Boot Device:               \Device\HarddiskVolume1
+System Locale:             en-us;English (United States)
+Input Locale:              en-us;English (United States)
+Time Zone:                 (UTC+07:00) Bangkok, Hanoi, Jakarta
+Total Physical Memory:     6,108 MB
+Available Physical Memory: 2,860 MB
+Virtual Memory: Max Size:  12,214 MB
+Virtual Memory: Available: 8,351 MB
+Virtual Memory: In Use:    3,863 MB
+Page File Location(s):     C:\pagefile.sys
+Domain:                    WORKGROUP
+Logon Server:              \\FASTMEDIANET-PC
+Hotfix(s):                 8 Hotfix(s) Installed.
+                           [01]: KB2664825
+                           [02]: KB2685811
+                           [03]: KB2999226
+                           [04]: KB3118401
+                           [05]: KB958488
+                           [06]: KB976902
+                           [07]: KB976932
+                           [08]: KB3185278
+Network Card(s):           2 NIC(s) Installed.
+                           [01]: Realtek PCIe GBE Family Controller
+                                 Connection Name: Local Area Connection
+                                 DHCP Enabled:    No
+                                 IP address(es)
+                                 [01]: 10.1.32.103
+                                 [02]: fe80::d825:139b:761a:3d02
+                           [02]: VirtualBox Host-Only Ethernet Adapter
+                                 Connection Name: VirtualBox Host-Only Network
+                                 DHCP Enabled:    No
+                                 IP address(es)
+                                 [01]: 192.168.56.1
+                                 [02]: fe80::3450:301d:fdd0:d322
+
+17
+C:\Users\medianet\Documents>net
+The syntax of this command is:
+
+NET
+    [ ACCOUNTS | COMPUTER | CONFIG | CONTINUE | FILE | GROUP | HELP |
+      HELPMSG | LOCALGROUP | PAUSE | SESSION | SHARE | START |
+      STATISTICS | STOP | TIME | USE | USER | VIEW ]
+
+18
+C:\Users\medianet\Documents>tasklist
+
+Image Name                     PID Session Name        Session#    Mem Usage
+========================= ======== ================ =========== ============
+System Idle Process              0 Services                   0         24 K
+System                           4 Services                   0        920 K
+smss.exe                       304 Services                   0      1,248 K
+csrss.exe                      464 Services                   0      4,724 K
+wininit.exe                    536 Services                   0      4,824 K
+csrss.exe                      560 Console                    1     15,840 K
+services.exe                   620 Services                   0     13,240 K
+lsass.exe                      632 Services                   0     13,740 K
+lsm.exe                        640 Services                   0      4,772 K
+winlogon.exe                   668 Console                    1      7,340 K
+svchost.exe                    808 Services                   0      9,984 K
+svchost.exe                    884 Services                   0     11,056 K
+atiesrxx.exe                   952 Services                   0      4,524 K
+svchost.exe                   1012 Services                   0     19,448 K
+svchost.exe                    328 Services                   0    154,356 K
+svchost.exe                    356 Services                   0     35,788 K
+svchost.exe                   1044 Services                   0     18,228 K
+atieclxx.exe                  1136 Console                    1      7,984 K
+svchost.exe                   1172 Services                   0     18,576 K
+spoolsv.exe                   1328 Services                   0     11,988 K
+svchost.exe                   1360 Services                   0     16,620 K
+AGMService.exe                1552 Services                   0      7,908 K
+AGSService.exe                1580 Services                   0     11,184 K
+HeciServer.exe                1628 Services                   0      5,676 K
+nmep_ctrlagentsvc.exe         1688 Services                   0     12,804 K
+NitroPDFDriverService8x64     1720 Services                   0      3,892 K
+SebWindowsServiceWCF.exe      1824 Services                   0     17,944 K
+sqlwriter.exe                 1960 Services                   0      6,544 K
+svchost.exe                   1980 Services                   0      5,696 K
+Service.exe                   2040 Services                   0      3,612 K
+unsecapp.exe                  2084 Services                   0      5,108 K
+svchost.exe                   2244 Services                   0     67,484 K
+svchost.exe                   2428 Services                   0      6,292 K
+taskhost.exe                  2696 Console                    1      9,192 K
+dwm.exe                       2784 Console                    1     28,824 K
+explorer.exe                  2792 Console                    1     63,360 K
+nmep_ctrlagent.exe             840 Console                    1     41,716 K
+RAVCpl64.exe                  2744 Console                    1     11,960 K
+DefenderDaemon.exe            3104 Console                    1      5,856 K
+HydraDM.exe                   3204 Console                    1      6,392 K
+HydraDM64.exe                 3284 Console                    1      6,576 K
+jusched.exe                   3312 Console                    1     12,400 K
+MOM.exe                       3336 Console                    1      8,104 K
+explorer.exe                  3348 Console                    1     10,700 K
+svchost.exe                   3364 Console                    1      7,760 K
+SearchIndexer.exe             3556 Services                   0     33,356 K
+chrome.exe                    3932 Console                    1    288,616 K
+chrome.exe                    3940 Console                    1      6,488 K
+chrome.exe                    3984 Console                    1      7,096 K
+chrome.exe                    4084 Console                    1    217,556 K
+chrome.exe                    4092 Console                    1     39,644 K
+dllhost.exe                   3380 Console                    1      6,800 K
+CCC.exe                       4304 Console                    1     52,632 K
+chrome.exe                    1104 Console                    1     68,664 K
+mscorsvw.exe                  3740 Services                   0     12,260 K
+jhi_service.exe               3764 Services                   0      4,552 K
+LMS.exe                       4448 Services                   0     10,276 K
+ielowutil.exe                 3276 Console                    1        612 K
+chrome.exe                    2264 Console                    1     69,332 K
+jucheck.exe                   3196 Console                    1     10,540 K
+chrome.exe                    5116 Console                    1    138,736 K
+dllhost.exe                   4668 Console                    1      7,652 K
+chrome.exe                    4896 Console                    1    154,496 K
+chrome.exe                    4656 Console                    1     67,524 K
+chrome.exe                    3972 Console                    1    104,900 K
+cmd.exe                       6064 Console                    1      3,568 K
+conhost.exe                   1300 Console                    1      6,908 K
+WINWORD.EXE                   5572 Console                    1     77,432 K
+OSPPSVC.EXE                   5304 Services                   0     14,600 K
+notepad.exe                   6508 Console                    1      7,472 K
+chrome.exe                    6644 Console                    1     63,152 K
+chrome.exe                    5444 Console                    1     53,288 K
+chrome.exe                    2764 Console                    1     66,384 K
+chrome.exe                    6908 Console                    1    171,024 K
+chrome.exe                    6852 Console                    1     48,180 K
+chrome.exe                    4748 Console                    1     50,064 K
+chrome.exe                    6448 Console                    1     49,352 K
+chrome.exe                    7068 Console                    1     33,164 K
+chrome.exe                     460 Console                    1     39,020 K
+chrome.exe                    1292 Console                    1     32,056 K
+chrome.exe                    5536 Console                    1     31,396 K
+chrome.exe                    6340 Console                    1     74,728 K
+chrome.exe                     796 Console                    1     31,872 K
+chrome.exe                    5552 Console                    1     32,092 K
+chrome.exe                    7144 Console                    1     88,444 K
+chrome.exe                    5272 Console                    1     31,228 K
+chrome.exe                    4700 Console                    1    177,088 K
+chrome.exe                    5616 Console                    1    162,928 K
+chrome.exe                    5856 Console                    1     92,448 K
+more.com                      2932 Console                    1      2,992 K
+cmd.exe                       6436 Console                    1      3,140 K
+conhost.exe                   2004 Console                    1      6,960 K
+cmd.exe                       5844 Console                    1      3,120 K
+cmd.exe                       6432 Console                    1      3,292 K
+chrome.exe                    5360 Console                    1     93,096 K
+chrome.exe                    3776 Console                    1     20,220 K
+chrome.exe                    6400 Console                    1     14,048 K
+tasklist.exe                  3068 Console                    1      6,128 K
+WmiPrvSE.exe                  6548 Services                   0      6,808 K
+
+19
+C:\Users\medianet\Documents>mode
+
+Status for device LPT1:
+-----------------------
+    Printer output is not being rerouted.
+
+
+Status for device COM1:
+-----------------------
+    Baud:            1200
+    Parity:          None
+    Data Bits:       7
+    Stop Bits:       1
+    Timeout:         OFF
+    XON/XOFF:        OFF
+    CTS handshaking: OFF
+    DSR handshaking: OFF
+    DSR sensitivity: OFF
+    DTR circuit:     ON
+    RTS circuit:     ON
+
+
+Status for device CON:
+----------------------
+    Lines:          300
+    Columns:        80
+    Keyboard rate:  31
+    Keyboard delay: 1
+    Code page:      437
+
+20
+C:\Users\medianet\Documents>klist
+
+Current LogonId is 0:0x231e1
+
+Cached Tickets: (0)
+
+
+
+
+
