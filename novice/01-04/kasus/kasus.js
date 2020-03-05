@@ -1,10 +1,14 @@
-var re = /[\w-]+@([\w-]+\.)+[\w-]+$/;
-var name = /([^@]*)/;
+var re = /[\w-]+@([\w-]+\.)+[\w-]+$/i;
+var rgname = /([^@]*)/;
+var rgtId = /[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}/;
 
-function testInfo(platInput) {
-  var OK = re.exec(platInput.value);
+function testInfo(answer) {
+  var OK = re.exec(answer.value);
+  var uname = rgname.exec(answer.value);
+  var nametId = rgtId.exec(answer.value);
   if (!OK) {
-    alert(platInput.value + ' ini bukan input email!'); 
+    alert(answer.value + ' ini bukan input email!'); 
   } else {
-    alert('Benar ini adalah input email' +platInput.value);}
+    alert('Benar ini adalah input email' + uname[0] + 'adalah domain anda' + nametId[0]);
+}
 } 
