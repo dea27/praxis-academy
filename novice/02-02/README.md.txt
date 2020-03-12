@@ -26,3 +26,4 @@ Metode statis
 
 Kata kunci statis mendefinisikan metode statis untuk suatu kelas.
 Metode statis sering digunakan untuk membuat fungsi utilitas untuk suatu aplikasi.
+Ketika metode statis atau prototipe dipanggil tanpa nilai untuk ini, nilai ini akan ditentukan di dalam metode.
